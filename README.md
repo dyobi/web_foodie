@@ -6,7 +6,7 @@
 
 > A responsive Single Page Application(SPA) using React, Spring-boot
 
-> Responsive Web Application for booking orders at restaurant
+> Responsive Web Application for booking foods before going to a restaurant
 
 > A web brunch project of bootcamp named <a href="https://mgr.kgitbank.com/" target="_blank">`KGITBANK`</a>
 
