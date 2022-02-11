@@ -61,7 +61,7 @@ Before you run this project, you have to import api folder to your IDE (IntelliJ
 
 **[5] Initialize project**
 
-You can run front side rendering using `npm start` in client folder. Back-end can be run by your IDE. Don't forget running your DB as well.
+You can run front side rendering using `npm start` in client folder. Back-end can be run by your IDE. Don't forget to run your DB as well.
 
 ```shell
 [cd client && npm start] / [run api server] / [run database]
