@@ -1,0 +1,310 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-overflow-style: none;
+
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+	color: gray;
+}
+
+body.react-confirm-alert-body-element {
+	overflow: hidden;
+}
+
+.react-confirm-alert-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.react-confirm-alert-body {
+	width: 300px;
+	height: 100px;
+	padding: 20px;
+
+	position: absolute;
+	top: calc(50% - 100px);
+	left: calc(50% - 150px);
+
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+	white-space: pre-line;
+
+	background: white;
+	border-radius: 8px;
+
+	-webkit-box-shadow: 0 0 4px black;
+	box-shadow: 0 0 4px black;
+}
+
+.react-confirm-alert-button-group {
+	position: absolute;
+	margin: 12px 6px;
+	right: 0;
+	bottom: 0;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.react-confirm-alert-button-group>button {
+	width: auto;
+	height: auto;
+
+	margin: 0 6px;
+	padding: 4px 8px;
+
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+
+	background: black;
+	border: none;
+	border-radius: 4px;
+
+	cursor: pointer;
+	outline: none;
+
+	transition: 300ms;
+}
+
+.react-confirm-alert-button-group>button:hover {
+	background-color: pink;
+}
+
+@-webkit-keyframes react-confirm-alert-fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes react-confirm-alert-fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes react-confirm-alert-fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes react-confirm-alert-fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes shaking {
+	0% {
+		transform: translateX(0%);
+	}
+
+	2.5% {
+		transform: translateX(-1.5%);
+	}
+
+	5% {
+		transform: translateX(-3%);
+	}
+
+	7.5% {
+		transform: translateX(-1.5%);
+	}
+
+	10% {
+		transform: translateX(0%);
+	}
+
+	12.5% {
+		transform: translateX(1.5%);
+	}
+
+	15% {
+		transform: translateX(3%);
+	}
+
+	17.5% {
+		transform: translateX(1.5%);
+	}
+
+	20% {
+		transform: translateX(0%);
+	}
+
+	22.5% {
+		transform: translateX(-1.5%);
+	}
+
+	25% {
+		transform: translateX(-3%);
+	}
+
+	27.5% {
+		transform: translateX(-1.5%);
+	}
+
+	30% {
+		transform: translateX(0%);
+	}
+
+	32.5% {
+		transform: translateX(1.5%);
+	}
+
+	35% {
+		transform: translateX(3%);
+	}
+
+	37.5% {
+		transform: translateX(1.5%);
+	}
+
+	40% {
+		transform: translateX(0%);
+	}
+
+	42.5% {
+		transform: translateX(-1.5%);
+	}
+
+	45% {
+		transform: translateX(-3%);
+	}
+
+	47.5% {
+		transform: translateX(-1.5%);
+	}
+
+	50% {
+		transform: translateX(0%);
+	}
+
+	52.5% {
+		transform: translateX(1.5%);
+	}
+
+	55% {
+		transform: translateX(3%);
+	}
+
+	57.5% {
+		transform: translateX(1.5%);
+	}
+
+	60% {
+		transform: translateX(0%);
+	}
+
+	62.5% {
+		transform: translateX(-1%);
+	}
+
+	65% {
+		transform: translateX(-2%);
+	}
+
+	67.5% {
+		transform: translateX(-1%);
+	}
+
+	70% {
+		transform: translateX(0%);
+	}
+
+	72.5% {
+		transform: translateX(1%);
+	}
+
+	75% {
+		transform: translateX(2%);
+	}
+
+	77.5% {
+		transform: translateX(1%);
+	}
+
+	80% {
+		transform: translateX(0%);
+	}
+
+	82.5% {
+		transform: translateX(-1%);
+	}
+
+	85% {
+		transform: translateX(-2%);
+	}
+
+	87.5% {
+		transform: translateX(-1%);
+	}
+
+	90% {
+		transform: translateX(0%);
+	}
+
+	92.5% {
+		transform: translateX(1%);
+	}
+
+	95% {
+		transform: translateX(2%);
+	}
+
+	97.5% {
+		transform: translateX(1%);
+	}
+
+	100% {
+		transform: translateX(0%);
+	}
+}
