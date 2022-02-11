@@ -36,8 +36,6 @@ git clone https://github.com/dyobi/WEBPJT_FOODIE.git && cd WEBPJT_FOODIE
 
 **[2] Check versions**
 
-You can use `make` command to check the available commands.
-
 ```shell
 JDK(1.8) / NODE(Latest) / NPM(Latest)
 ```
