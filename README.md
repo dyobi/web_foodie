@@ -1,5 +1,5 @@
 <a href="https://github.com/dyobi/WEBPJT_FOODIE" title="header" alt="header">
-  <img src="https://github.com/dyobi/WEBPJT_FOODIE/blob/main/client/src/assets/icons/logo.png" width="200" height="200" title="header" alt="header">
+  <img src="https://github.com/dyobi/WEBPJT_FOODIE/blob/main/client/src/assets/icons/logo.png" width="100" height="100" title="header" alt="header">
 </a>
 
 # WEBPJT_FOODIE
