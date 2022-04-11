@@ -2,7 +2,7 @@
   <img src="https://github.com/dyobi/web_foodie/blob/main/client/src/assets/icons/logo.png" width="100" height="100" title="header" alt="header">
 </a>
 
-# WEBPJT_FOODIE
+# FOODIE
 
 > A responsive Single Page Application(SPA) using React, Spring-boot
 
