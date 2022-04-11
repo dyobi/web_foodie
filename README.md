@@ -12,7 +12,7 @@
 
 ## Preview
 
-<img src="https://github.com/dyobi/WEBPJT_FOODIE/blob/main/client/src/assets/images/PREVIEW.png?raw=true" width="100%" title="preview" alt="preview">
+<img src="https://github.com/dyobi/web_foodie/blob/main/client/src/assets/images/PREVIEW.png?raw=true" width="100%" title="preview" alt="preview">
 
 ---
 
